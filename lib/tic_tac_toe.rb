@@ -99,4 +99,5 @@ def play(board)
 #  end
   if turn(board) == false
     over?(board)
+  end
 end
