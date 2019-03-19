@@ -7,7 +7,7 @@ WIN_COMBINATIONS = [
   [2,4,6],
   [0,3,6],
   [1,4,7],
-  [2,5,8]].freeze
+  [2,5,8]]
   
 def play(board)
   turn(board) until over?(board)
