@@ -10,11 +10,12 @@ WIN_COMBINATIONS = [
   [2,5,8]]
   
 def play(board)
-  turn(board)
-  if won?(board)
-    puts "Congratulations #{winner(board)}!"
-  elsif draw?(board)
-    puts "Cat's Game!"
+  turn(board) until over?(board)
+    if won?(board)
+      puts "Congratulations #{winner(board)}!"
+    elsif draw?(board)
+      puts "Cat's Game!"
+    end
   end
 end
   
