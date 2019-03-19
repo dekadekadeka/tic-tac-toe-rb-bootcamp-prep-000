@@ -94,10 +94,5 @@ end
 
 def play(board)
   turn(board)
-#  if draw?(board)
-#    puts "Cat's Game!"
-#  end
-  if turn(board) == false
-    over?(board)
   end
 end
