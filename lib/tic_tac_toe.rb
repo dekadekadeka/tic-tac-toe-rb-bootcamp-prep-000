@@ -51,7 +51,7 @@ def turn(board)
     move(board, index, current_player(board))
     display_board(board)
   else
-    puts "Meh"
+    turn(board)
   end
 end
 
