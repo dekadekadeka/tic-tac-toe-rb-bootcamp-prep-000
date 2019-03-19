@@ -15,7 +15,6 @@ def play(board)
 #      puts "Congratulations #{winner(board)}!"
 #    elsif draw?(board)
 #      puts "Cat's Game!"
-  end
 end
   
 def display_board(board)
