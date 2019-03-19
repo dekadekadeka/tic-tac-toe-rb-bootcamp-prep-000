@@ -93,5 +93,10 @@ def winner(board)
 end
 
 def play(board)
-  turn(board)
+#  turn(board)
+  winner(board)
+  if winner == "X"
+    puts "Congratulations X!"
+  elsif winner = "O"
+    puts "Congratulations O!"
 end
