@@ -16,7 +16,6 @@ def play(board)
     elsif draw?(board)
       puts "Cat's Game!"
     end
-  end
 end
   
 def display_board(board)
